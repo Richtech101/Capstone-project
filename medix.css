@@ -1,0 +1,382 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(128, 128, 128, 0.3);
+}
+
+input, button, select{
+    border: none;
+    outline: none;
+}
+
+button, select{
+    cursor: pointer;
+}
+
+select{
+    border: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 2vw;
+    position: fixed;
+    background-color: #fff;
+    width: 80%;
+    z-index: 1;
+    margin-left: 20%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.search-bar{
+    border: 1px solid gray;
+    position: relative;
+    border-radius: 12px;
+    min-width: 250px;
+}
+
+.search-bar span{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.search-bar input{
+    border-radius: 12px;
+    padding: 10px 10px 10px 30px;
+    width: 100%;
+}
+
+.profile{
+    margin-left: auto;
+    display: flex;
+    align-self: center;
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.profile .doc{
+    margin: 0 1vw;
+}
+
+.container{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 20%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 2;
+    border-right: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.nav-options{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    gap: 10px;
+}
+
+.nav-option{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.nav-option span,
+.setting-image span,
+.head p,
+.chart-div,
+table td{
+    font-size: 14px;
+}
+
+.nav-options .department{
+    background-color: #8146ff3e;
+}
+
+.nav-option img{
+    height: 25px;
+    width: 25px;
+    margin-right: 1vw;
+}
+
+.sidebar .button, .head button{
+    border-radius: 7px;
+    background-color: #8146FF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+}
+
+.sidebar .button{
+    margin-bottom: 3vh;
+}
+
+.sidebar-image img{
+    width: 100%;
+}
+
+.setting-image{
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.setting-image img{
+    margin-right: 1vw;
+}
+
+main{
+    width: 80%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 20px;
+}
+
+.left, .right, .bottom{
+    border-radius: 12px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.top{
+    display: flex;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.head h2{
+    font-size: 18px;
+}
+
+.left{
+    width: 35%;
+}
+
+.left select{
+    border-radius: 12px;
+    background-color: rgba(100, 148, 237, 0.254);
+    color: blue;
+}
+
+.left .departments{
+    height: 100%;
+}
+
+.left .department{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5vw;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.left .department span:last-child{
+    font-weight: 600;
+}
+
+.left .circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.left .department span:last-child{
+    margin-left: auto;
+}
+
+.right{
+    width: 65%;
+}
+
+.right .charts{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.chart-div{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chart{
+    background-color: rgba(128, 128, 128, 0.137);
+    height: 50%;
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+}
+
+.chart > span{
+    text-align: center;
+}
+
+.bar{
+    background-color: black;
+    border-radius: 5px;
+}
+
+.bottom{
+    height: 100%;
+}
+
+.table{
+    height: 100%;
+}
+
+table{
+    width: 100%;
+    height: 80%;
+    border-collapse: collapse;
+}
+
+table th{
+    font-weight: 600;
+}
+
+table tr:first-child{
+    background-color: rgba(128, 128, 128, 0.137);
+    border-radius: 12px;
+}
+
+table tr:not(table tr:first-child){
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+table th, table td{
+    padding: 20px;
+    text-align: left;
+}
+
+table td{
+    font-weight: 400;
+}
+
+.person{
+    margin: 0 5px;
+}
+
+.doctors-img-div{
+    display: flex;
+    align-items: center;
+}
+
+.doctors-img-div img{
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.violet{
+    background-color: violet;
+}
+
+.blue{
+    background-color: cornflowerblue;
+}
+
+.purple{
+    background-color: #8146FF;
+}
+
+.tomato{
+    background-color: tomato;
+}
+
+.green{
+    background-color: green;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.emergency{
+    height: 30%;
+}
+
+.icu{
+    height: 55%;
+}
+
+.neurology{
+    height: 80%;
+}
+
+.cardiology{
+    height: 40%;
+}
+
+.gynaecology{
+    height: 65%;
+}
+
+.urology{
+    height: 82%;
+}
+
+.active span{
+    color: green;
+    background-color: rgba(0, 128, 0, 0.25);
+    border-radius: 12px;
+    padding: 5px;
+}
+
+.inactive span{
+    color: red;
+    background-color: rgba(128, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 5px;
+}

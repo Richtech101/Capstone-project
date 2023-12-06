@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    margin-top: 20px;
+}
+.notification{
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.doc{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.alarm{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+input{
+    border: 1px solid #CDCFD4 ;
+    padding: 5px 3px 5px 1px;
+    border-radius: 5px;
+    padding-left: 50px;
+    align-items: center;
+    margin-left: 25px;
+}
+.searchh{
+    color: black;
+    position: absolute;
+    padding-left: 40px;
+    padding-top: 5px;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.option-value{
+    background-color: white;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    color:#45464B;
+    margin-right: 20px;
+}
+.options img{
+    width: 12px;
+    height: 12px;
+    margin-left: 15px;
+    font-family: 'Inter', sans-serif;
+}
+.dashboard img{
+    margin-top: 30px;
+}
+.appointment img{
+    margin-top:10px;
+}
+.doctor img{
+    margin-top: 10px;
+}
+.dept img{
+    margin-top: 10px;
+    
+}
+.patient img{
+    margin-top: 10px;
+}
+.chats img{
+    margin-top: 10px;
+}
+.calls img{
+    margin-top: 10px;
+}
+.dashboard{
+    margin-left: 20px;
+}
+.appointment{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.doctor{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.dept{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.patient{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.chats{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.calls{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.span{
+    margin-left: 10px;
+    font-family: 'Inter', sans-serif;
+     color: #61677F;
+}
+.buttons{
+    border-radius: 7px;
+    background-color: #8146FF;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    border: none;
+    margin-top: 25px;
+    padding-left: 4px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.buttons span{
+    color: white;
+
+}
+.sidebar-image{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+.setting-image{
+  display: flex;
+  align-items: center;
+ 
+}
+.setting-image img{
+    margin-left: 10px;
+}
+.settings-div{
+    margin-top: 30px;
+}
+nav{
+    font-size: small;
+}
+.container1{
+    background-color:#F0F1F6;
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 5px;
+}
+.section-one{
+    display: flex;
+}
+
+main{
+    display: flex;
+    border: 1px solid green;
+    gap: 10px;
+}
+
+.sidebar{
+
+    width: 20%;
+}
+.top{
+    background-color: white;
+    margin-top: 15px;
+    width: 425px;
+    height: 299px;
+    margin-left: 20px;
+    border-radius: 14px;
+    padding: 30px;
+}
+.top div{
+    margin-bottom: 10px;
+    
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+}
+.color-pink{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: red;
+   
+}
+
+.date{
+    float: right;
+    
+    background-color: #F1F5FF;
+    text-align: center;
+    padding: 3px 3px;
+    font-family: Inter;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6C9EFF;
+    border: none;
+    border-radius: 9px;
+
+}
+
+
+.patient{
+   margin-left: 0px;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+   
+}
+
+/* 
+
+
+.hospital{
+   
+  
+    height: 3px;
+    width: 3px;
+    color: red;
+    border-radius: 50%;
+    background-color: red;
+}
+
+
+} */
+.cardio{
+    display: flex;
+    align-items: center;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.percent{
+    padding-right: 40px;
+}
+
+.right{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    
+}
+
+/* bottom details */
+
+#bottom{
+    background-color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+.dpt-btn{
+padding: 10px 20px;
+background-color: #8146FF;
+color: white;
+border: 0px;
+border-radius: 6px;
+}
+
+.b-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 96%;
+    margin: 10px auto;
+}
+
+#dpt-table{
+width: 95%;
+margin: auto;
+}
+
+#heading-row{
+    background-color: #F0F1F6;
+    padding: 6px;
+    text-align: left;
+    border-radius: 8px;
+}
+
+/* .tr-line{
+    background-color: red;
+} */
+
+th{
+    padding: 10px 25px;
+}
+
+td{
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+
+#dpt-name, #dpt-head{
+    text-align: left;
+}
+
+.dpt-name, .dpt-head{
+    padding-left: 20px;
+}
+
+#action{
+    text-align: center;
+}
+
+#status{
+    text-align: center;
+}
+.doctor-img{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.d-img{
+    width: 40px;
+    height: 40px;
+}
+
+.gender{
+    text-align: center;
+}
+
+.active{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: #F0F1F6;
+    color: green;
+    text-align: center;
+}
+
+.inactive{
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: rgb(244, 195, 195);
+    color: red;
+    text-align: center;
+}
